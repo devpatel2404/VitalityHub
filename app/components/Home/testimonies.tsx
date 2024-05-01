@@ -68,7 +68,7 @@ export default function Testimonies(){
                         </div>
                         <div id={"Testimony3"} hidden={true}>
                             <h1></h1>
-                            <p>Thanks to VitalityHub, I've mastered calorie tracking. I&apos;m setting healthy habits and feeling better than ever!</p>
+                            <p>Thanks to VitalityHub, I&apos;ve mastered calorie tracking. I&apos;m setting healthy habits and feeling better than ever!</p>
                         </div>
                         <div id={"Testimony4"} hidden={true}>
                             <h1></h1>
