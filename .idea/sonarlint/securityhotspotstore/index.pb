@@ -11,3 +11,14 @@ C
 app/Submit/page.tsx,c/f/cf2eeb7e51c4c41442fa83641321f60b88031ee1
 N
 app/components/Home/Banner.tsx,3/c/3ca4392603e39389cb05255bf3b6379c85b48bf8
+>
+app/layout.tsx,e/e/ee80c90a95b380fdaa8bc6ba2190fbb3fdc30bb0
+A
+package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
