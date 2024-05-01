@@ -11,7 +11,7 @@ export default function GettingStarted(){
         <main className={'flex justify-center mt-6 w-screen'}>
             <MediaQuery minWidth={800}>
                 <div className={"mb-6"}>
-                    <h1 className={"text-7xl text-center mb-4"}>It's as simple as 1-2-3</h1>
+                    <h1 className={"text-7xl text-center mb-4"}>It&apos;s as simple as 1-2-3</h1>
                     <span className={"w-48 text-center"}>
                         <h1 className={"text-2xl font-bold"}>1. Get Started</h1>
                         <p className={"mt-0.5 text-lg mb-2"}>Get started by adding your profile information, and select a goal.</p>
@@ -35,7 +35,7 @@ export default function GettingStarted(){
             </MediaQuery>
             <MediaQuery maxWidth={799} minWidth={500}>
                 <div className={"mb-6"}>
-                    <h1 className={"text-5xl text-center mb-4"}>It's as simple as 1-2-3</h1>
+                    <h1 className={"text-5xl text-center mb-4"}>It&apos;s as simple as 1-2-3</h1>
                     <span className={"w-48 text-center"}>
                         <h1 className={"text-2xl font-bold"}>1. Get Started</h1>
                         <p className={"mt-0.5 text-lg mb-2"} style={{width: '400px', marginLeft: 'auto', marginRight: 'auto'}}>Get started by adding your profile information, and select a goal.</p>
@@ -59,7 +59,7 @@ export default function GettingStarted(){
             </MediaQuery>
             <MediaQuery maxWidth={499}>
                 <div className={"mb-6"}>
-                    <h1 className={"text-3xl text-center mb-4"} style={{width: '320px', marginLeft: 'auto', marginRight: 'auto'}}>It's as simple as 1-2-3</h1>
+                    <h1 className={"text-3xl text-center mb-4"} style={{width: '320px', marginLeft: 'auto', marginRight: 'auto'}}>It&apos;s as simple as 1-2-3</h1>
                     <span className={"w-48 text-center"}>
                         <h1 className={"text-2xl font-bold"}>1. Get Started</h1>
                         <p className={"mt-0.5 text-lg mb-2"}

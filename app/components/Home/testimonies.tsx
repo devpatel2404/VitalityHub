@@ -56,7 +56,7 @@ export default function Testimonies(){
                         </div>
                         <div id={"Testimony0"} hidden={false}>
                             <h1></h1>
-                            <p>VitalityHub keeps me on track with my calories. I've seen remarkable progress and regained control of my health!</p>
+                            <p>VitalityHub keeps me on track with my calories. I&apos;ve seen remarkable progress and regained control of my health!</p>
                         </div>
                         <div id={"Testimony1"} hidden={true}>
                             <h1></h1>
@@ -64,27 +64,27 @@ export default function Testimonies(){
                         </div>
                         <div id={"Testimony2"} hidden={true}>
                             <h1></h1>
-                            <p>With VitalityHub, managing my calories is simple. I've made significant progress and feel empowered in my health journey.</p>
+                            <p>With VitalityHub, managing my calories is simple. I&apos;ve made significant progress and feel empowered in my health journey.</p>
                         </div>
                         <div id={"Testimony3"} hidden={true}>
                             <h1></h1>
-                            <p>Thanks to VitalityHub, I've mastered calorie tracking. I'm setting healthy habits and feeling better than ever!</p>
+                            <p>Thanks to VitalityHub, I've mastered calorie tracking. I&apos;m setting healthy habits and feeling better than ever!</p>
                         </div>
                         <div id={"Testimony4"} hidden={true}>
                             <h1></h1>
-                            <p>VitalityHub makes calorie tracking a breeze. I've seen positive changes in my health and lifestyle.</p>
+                            <p>VitalityHub makes calorie tracking a breeze. I&apos;ve seen positive changes in my health and lifestyle.</p>
                         </div>
                         <div id={"Testimony5"} hidden={true}>
                             <h1></h1>
-                            <p>VitalityHub has transformed how I manage my calories. I'm making progress and feeling more confident every day.</p>
+                            <p>VitalityHub has transformed how I manage my calories. I&apos;m making progress and feeling more confident every day.</p>
                         </div>
                         <div id={"Testimony6"} hidden={true}>
                             <h1></h1>
-                            <p>Using VitalityHub's calorie tracker has been life-changing. It's helped me stay accountable and improve my health.</p>
+                            <p>Using VitalityHub&apos;s calorie tracker has been life-changing. It&apos;s helped me stay accountable and improve my health.</p>
                         </div>
                         <div id={"Testimony7"} hidden={true}>
                             <h1></h1>
-                            <p>VitalityHub exceeded my expectations for a calorie tracker app. It's user-friendly and keeps me motivated to reach my goals!</p>
+                            <p>VitalityHub exceeded my expectations for a calorie tracker app. It&apos;s user-friendly and keeps me motivated to reach my goals!</p>
                         </div>
                         <div className={"flex"} style={{marginTop: 'auto', marginBottom: 'auto'}}>
                             <button onClick={forward} className={"text-4xl text-white ml-4 bg-black rounded-3xl pl-1 pr-1 relative font-sans"}>&#x2192;</button>

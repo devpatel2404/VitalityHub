@@ -22,3 +22,7 @@ S
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+S
+#app/components/Home/testimonies.tsx,2/7/273262948f72a88a95012b12e66870c81eb758b6
+V
+&app/components/Home/GettingStarted.tsx,d/b/db98edde28d5b38c3815fe661e6866b018b13e72
