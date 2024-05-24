@@ -4,7 +4,6 @@ import GettingStarted from "./components/Home/GettingStarted";
 import QandA from "./components/Home/Q&A";
 import Testimonies from "./components/Home/testimonies";
 import Footer from "./components/Home/Footer";
-import DailyPlan from "@/app/components/Home/DailyPlan";
 
 export default function Home(){
   return (
@@ -15,7 +14,6 @@ export default function Home(){
           <QandA/>
           {/*This place is left for the revies which we currently don't have any of*/}
           <Testimonies />
-          <DailyPlan />
           <Footer/>
       </main>
   );

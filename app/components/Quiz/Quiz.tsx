@@ -81,7 +81,7 @@ export default function QuizSection(){
                                    className={"text-lg text-black text-center border-black border-2 w-1/5 mt-2"}/>
                             <h1 className={"text-lg mt-2 ml-1"}>years old</h1>
                         </div>
-                        <h1 className={"text-center text-2xl w-4/5 mt-4"} style={{marginLeft: '10vw'}}>Height</h1>
+                        <h1 className={"text-center text-2xl w-4/5 mt-4 mb-2"} style={{marginLeft: '10vw'}}>Height</h1>
                         <div className={"flex justify-center"}>
                             <input
                                 type="number" className={"w-1/5 border-2 border-black text-center"}
@@ -114,7 +114,7 @@ export default function QuizSection(){
                     <div className={"flex justify-center fixed bottom-0 w-screen"}>
                         <button
                             className={"bg-blue-800 border-2 pt-2 pb-2 w-screen text-2xl font-bold text-white rounded-xl"}
-                        >Next
+                        >Submit
                         </button>
                     </div>
                 </form>
@@ -229,7 +229,7 @@ export default function QuizSection(){
                     <div className={"flex justify-center fixed bottom-0 w-screen"}>
                         <button
                             className={"bg-blue-800 border-2 pt-2 pb-2 w-screen text-2xl font-bold text-white rounded-xl"}
-                        >Next
+                        >Submit
                         </button>
                     </div>
                 </form>

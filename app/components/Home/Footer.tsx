@@ -24,7 +24,7 @@ export default function Footer() {
             <link rel="stylesheet"
                   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
             <MediaQuery minWidth={1200}>
-                <div className={"flex justify-center"}>
+                <div className={"flex justify-center h-80"}>
                     <div className={"flex justify-center"}>
                         <h1 className={"text-3xl mt-16 mr-32"}>VitalityHub</h1>
                         <div className={"flex"}>
@@ -54,19 +54,19 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className={"flex"} style={{marginTop: 'auto', marginBottom: 'auto'}}>
-                        <div className={"mr-6 mt-32"}>
+                        <div className={"mr-6"} style={{marginTop: 'auto', marginBottom: 'auto'}}>
                             <h1 className={"text-2xl mr-4"}>Products</h1>
                             <h1 className={"text-xl mt-1 mb-1"}>Apps</h1>
                             <h1 className={"text-xl mt-1 mb-1"}>Foods</h1>
                             <h1 className={"text-xl mt-1 mb-1"}>Exercises</h1>
                         </div>
-                        <div className={"mr-6 mt-32"}>
+                        <div className={"mr-6"} style={{marginTop: 'auto', marginBottom: 'auto'}}>
                             <h1 className={"text-2xl mr-4"}>Resources</h1>
                             <h1 className={"text-xl mt-1 mb-1"}>Blog</h1>
                             <h1 className={"text-xl mt-1 mb-1"}>Community</h1>
                             <h1 className={"text-xl mt-1 mb-1"}>Exercises</h1>
                         </div>
-                        <div className={"mt-32"}>
+                        <div style={{marginTop: 'auto', marginBottom: 'auto'}}>
                             <h1 className={"text-2xl mr-4"}>Customer Service</h1>
                             <h1 className={"text-xl mt-1 mb-1"}>FAQ</h1>
                             <h1 className={"text-xl mt-1 mb-1"}>Contact Us</h1>

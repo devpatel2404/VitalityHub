@@ -1,6 +1,8 @@
 "use client"
 import Image from "next/image";
-import Picture1 from '../../../public/workingOut.jpeg'
+import Picture1 from '../../../public/Home/FillingOutQuiz.jpeg';
+import Picture2 from '../../../public/Home/GettingStarted1.png';
+import Picture3 from '../../../public/Home/HealthyHabits.png';
 import MediaQuery from "react-responsive";
 
 
@@ -12,75 +14,68 @@ export default function GettingStarted(){
             <MediaQuery minWidth={800}>
                 <div className={"mb-6"}>
                     <h1 className={"text-7xl text-center mb-4"}>It&apos;s as simple as 1-2-3</h1>
-                    <span className={"w-48 text-center"}>
-                        <h1 className={"text-2xl font-bold"}>1. Get Started</h1>
-                        <p className={"mt-0.5 text-lg mb-2"}>Get started by adding your profile information, and select a goal.</p>
-                    </span>
+                    <h1 className={"text-2xl font-bold text-center"}>1. Get Started</h1>
+                    <p className={"mt-0.5 text-lg mb-2 text-center"} style={{width: '400px', marginLeft: 'auto', marginRight: 'auto'}}>
+                        Get started by adding your profile information, and select a goal.</p>
                     <Image src={Picture1} alt={'random picture'} className={'rounded-3xl'} style={{margin: 'auto'}}
                            height={400}></Image>
-                    <span
-                        className={"w-48 text-center mt-1"}>
-                        <h1 className={"text-2xl font-bold"}>2. Track Everything</h1>
-                        <p className={"mt-0.5 mb-2 text-lg"}>Tracking everything you do can help us figure out what is best for you to reach your goals.</p>
-                    </span>
-                    <Image src={Picture1} alt={'random picture'} className={'rounded-3xl'} style={{margin: 'auto'}}
+                    <h1 className={"text-2xl font-bold mt-2 text-center"}>2. Track Everything</h1>
+                    <p className={"mt-0.5 mb-2 text-lg text-center"} style={{width: '400px', marginRight: 'auto', marginLeft: 'auto'}}>
+                        Tracking everything you do can help us figure out what is best for you to reach your goals.</p>
+                    <Image src={Picture2} alt={'random picture'} className={'rounded-3xl'} style={{margin: 'auto'}}
                            height={400}></Image>
-                    <span className={"w-48 text-center"}>
-                        <h1 className={"text-2xl font-bold"}>3. Be Consistent</h1>
-                        <p className={"mt-0.5 text-lg mb-2"}>Hello</p>
-                    </span>
-                    <Image src={Picture1} alt={'random picture'} className={'rounded-3xl'} height={400}
+                    <h1 className={"text-2xl mt-2 font-bold text-center"}>3. Be Consistent</h1>
+                    <p className={"mt-0.5 text-lg mb-2 text-center"} style={{width: '400px', marginLeft: 'auto', marginRight: 'auto'}}>
+                        Building Healthy Habits, Discipline, and Accountability can help build consistency to reach you goals.</p>
+                    <Image src={Picture3} alt={'random picture'} className={'rounded-3xl'} height={400}
                            style={{margin: 'auto'}}></Image>
                 </div>
             </MediaQuery>
             <MediaQuery maxWidth={799} minWidth={500}>
                 <div className={"mb-6"}>
-                    <h1 className={"text-5xl text-center mb-4"}>It&apos;s as simple as 1-2-3</h1>
-                    <span className={"w-48 text-center"}>
-                        <h1 className={"text-2xl font-bold"}>1. Get Started</h1>
-                        <p className={"mt-0.5 text-lg mb-2"} style={{width: '400px', marginLeft: 'auto', marginRight: 'auto'}}>Get started by adding your profile information, and select a goal.</p>
-                    </span>
+                    <h1 className={"text-4xl text-center mb-4"}>It&apos;s as simple as 1-2-3</h1>
+                    <h1 className={"text-2xl font-bold text-center"}>1. Get Started</h1>
+                    <p className={"mt-0.5 text-lg mb-2 text-center"}
+                       style={{width: '400px', marginLeft: 'auto', marginRight: 'auto'}}>
+                        Get started by adding your profile information, and select a goal.</p>
                     <Image src={Picture1} alt={'random picture'} className={'rounded-3xl'} style={{margin: 'auto'}}
-                           width={400}></Image>
-                    <span
-                        className={"text-center"}>
-                        <h1 className={"text-2xl font-bold mt-2"}>2. Track Everything</h1>
-                        <p className={"mt-0.5 mb-2 text-lg"} style={{width: '400px', marginLeft: 'auto', marginRight: 'auto'}}>Tracking everything you do can help us figure out what is best for you to reach your goals.</p>
-                    </span>
-                    <Image src={Picture1} alt={'random picture'} className={'rounded-3xl'} style={{margin: 'auto'}}
-                           width={400}></Image>
-                    <span className={"w-48 text-center"}>
-                        <h1 className={"text-2xl font-bold mt-2"}>3. Be Consistent</h1>
-                        <p className={"mt-0.5 text-lg mb-2"} style={{width: '400px', marginLeft: 'auto', marginRight: 'auto'}}>Hello</p>
-                    </span>
-                    <Image src={Picture1} alt={'random picture'} className={'rounded-3xl'} width={400}
+                           height={400}></Image>
+                    <h1 className={"text-2xl font-bold mt-2 text-center"}>2. Track Everything</h1>
+                    <p className={"mt-0.5 mb-2 text-lg text-center"}
+                       style={{width: '400px', marginRight: 'auto', marginLeft: 'auto'}}>
+                        Tracking everything you do can help us figure out what is best for you to reach your goals.</p>
+                    <Image src={Picture2} alt={'random picture'} className={'rounded-3xl'} style={{margin: 'auto'}}
+                           height={400}></Image>
+                    <h1 className={"text-2xl mt-2 font-bold text-center"}>3. Be Consistent</h1>
+                    <p className={"mt-0.5 text-lg mb-2 text-center"}
+                       style={{width: '400px', marginLeft: 'auto', marginRight: 'auto'}}>
+                        Building Healthy Habits, Discipline, and Accountability can help build consistency to reach you
+                        goals.</p>
+                    <Image src={Picture3} alt={'random picture'} className={'rounded-3xl'} height={400}
                            style={{margin: 'auto'}}></Image>
                 </div>
             </MediaQuery>
             <MediaQuery maxWidth={499}>
                 <div className={"mb-6"}>
-                    <h1 className={"text-3xl text-center mb-4"} style={{width: '320px', marginLeft: 'auto', marginRight: 'auto'}}>It&apos;s as simple as 1-2-3</h1>
-                    <span className={"w-48 text-center"}>
-                        <h1 className={"text-2xl font-bold"}>1. Get Started</h1>
-                        <p className={"mt-0.5 text-lg mb-2"}
-                           style={{width: '300px', marginLeft: 'auto', marginRight: 'auto'}}>Get started by adding your profile information, and select a goal.</p>
-                    </span>
+                    <h1 className={"text-3xl text-center mb-4"}>It&apos;s as simple as 1-2-3</h1>
+                    <h1 className={"text-2xl font-bold text-center"}>1. Get Started</h1>
+                    <p className={"mt-0.5 text-lg mb-2 text-center"}
+                       style={{width: '300px', marginLeft: 'auto', marginRight: 'auto'}}>
+                        Get started by adding your profile information, and select a goal.</p>
                     <Image src={Picture1} alt={'random picture'} className={'rounded-3xl'} style={{margin: 'auto'}}
-                           width={300}></Image>
-                    <span
-                        className={"text-center"}>
-                        <h1 className={"text-2xl font-bold mt-2"}>2. Track Everything</h1>
-                        <p className={"mt-0.5 mb-2 text-lg"}
-                           style={{width: '300px', marginLeft: 'auto', marginRight: 'auto'}}>Tracking everything you do can help us figure out what is best for you to reach your goals.</p>
-                    </span>
-                    <Image src={Picture1} alt={'random picture'} className={'rounded-3xl'} style={{margin: 'auto'}}
-                           width={300}></Image>
-                    <span className={"w-48 text-center"}>
-                        <h1 className={"text-2xl font-bold mt-2"}>3. Be Consistent</h1>
-                        <p className={"mt-0.5 text-lg mb-2"}
-                           style={{width: '300px', marginLeft: 'auto', marginRight: 'auto'}}>Build healthy habits and make sure that you </p>
-                    </span>
-                    <Image src={Picture1} alt={'random picture'} className={'rounded-3xl'} width={300}
+                           height={300}></Image>
+                    <h1 className={"text-2xl font-bold mt-2 text-center"}>2. Track Everything</h1>
+                    <p className={"mt-0.5 mb-2 text-lg text-center"}
+                       style={{width: '300px', marginRight: 'auto', marginLeft: 'auto'}}>
+                        Tracking everything you do can help us figure out what is best for you to reach your goals.</p>
+                    <Image src={Picture2} alt={'random picture'} className={'rounded-3xl'} style={{margin: 'auto'}}
+                           height={300}></Image>
+                    <h1 className={"text-2xl mt-2 font-bold text-center"}>3. Be Consistent</h1>
+                    <p className={"mt-0.5 text-lg mb-2 text-center"}
+                       style={{width: '300px', marginLeft: 'auto', marginRight: 'auto'}}>
+                        Building Healthy Habits, Discipline, and Accountability can help build consistency to reach you
+                        goals.</p>
+                    <Image src={Picture3} alt={'random picture'} className={'rounded-3xl'} height={300}
                            style={{margin: 'auto'}}></Image>
                 </div>
             </MediaQuery>
