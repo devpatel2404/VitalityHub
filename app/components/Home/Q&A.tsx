@@ -1,6 +1,7 @@
 "use client"
 import MediaQuery from "react-responsive";
 import mediaQuery from "react-responsive/src/mediaQuery";
+import "./Home.css"
 
 export default function QandA(){
     function button1(){
@@ -58,287 +59,96 @@ export default function QandA(){
 
 
     return(
-        <main className={"bg-blue-800 w-screen mt-4"}>
-            <h1 className={"text-center text-white pt-6 text-5xl"}>Q&A</h1>
-            <div className={"mt-6 pb-8"}>
-                <MediaQuery minWidth={1000}>
-                        <div className={"border-2 border-white mb-6"}
-                             style={{width: '900px', margin: 'auto', marginBottom: '1.5rem'}}>
-                            <div className={"flex justify-between pt-6 pb-6"}>
-                                <h1 className={"text-2xl ml-6 text-white"}>What is included in
-                                    VitalityHub?</h1>
-                                <button className={"mr-6 rounded-3xl bg-white"}
-                                        onClick={button1}
-                                        onMouseEnter={Enter}
-                                        onMouseLeave={Leave}>
-                                    <span id={"Home-Q&A-1DWN"}
-                                          className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                    <span id={"Home-Q&A-1UP"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                          hidden={true}>&#8593;</span>
-                                </button>
-                            </div>
-                            <p id={"Home-Q&A-1"} hidden={true} className={'text-center text-white text-lg'}>Hello this
-                                all
-                                of
-                                the feature that my new app produces</p>
-                        </div>
-                        <div className={"border-2 border-white mb-6"}
-                             style={{width: '900px', margin: 'auto', marginBottom: '1.5rem'}}>
-                            <div className={"flex justify-between pt-6 pb-6"}>
-                                <h1 className={"text-2xl ml-6 text-white"}>How can VitalityHub help
-                                    me?</h1>
-                                <button className={"mr-6 rounded-3xl bg-white h-8"}
-                                        style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button2}
-                                        onMouseEnter={Enter}
-                                        onMouseLeave={Leave}>
-                                    <span id={"Home-Q&A-2DWN"}
-                                          className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                    <span id={"Home-Q&A-2UP"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                          hidden={true}>&#8593;</span>
-                                </button>
-                            </div>
-                            <p id={"Home-Q&A-2"} hidden={true} className={'text-center text-white text-lg'}>Hello this
-                                all
-                                of
-                                the feature that my new app produces</p>
-                        </div>
-                        <div className={"border-2 border-white mb-6"}
-                             style={{width: '900px', margin: 'auto', marginBottom: '1.5rem'}}>
-                            <div className={"flex justify-between pt-6 pb-6"}>
-                                <h1 className={"text-2xl ml-6 text-white"}>Is VitalityHub compatible with other health
-                                    and
-                                    fitness apps or devices?</h1>
-                                <button className={"mr-6 rounded-3xl bg-white h-8"}
-                                        style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button3}
-                                        onMouseEnter={Enter}
-                                        onMouseLeave={Leave}>
-                                    <span id={"Home-Q&A-3DWN"}
-                                          className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                    <span id={"Home-Q&A-3UP"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                          hidden={true}>&#8593;</span>
-                                </button>
-                            </div>
-                            <p id={"Home-Q&A-3"} hidden={true} className={'text-center text-white text-lg'}>Hello this
-                                all
-                                of
-                                the feature that my new app produces</p>
-                        </div>
-                        <div className={"border-2 border-white mb-6"}
-                             style={{width: '900px', margin: 'auto', marginBottom: '1.5rem'}}>
-                            <div className={"flex justify-between pt-6 pb-6"}>
-                                <h1 className={"text-2xl ml-6 text-white"}>How do I get started with VitalityHub?</h1>
-                                <button className={"mr-6 rounded-3xl bg-white h-8"}
-                                        style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button4}
-                                        onMouseEnter={Enter}
-                                        onMouseLeave={Leave}>
-                                    <span id={"Home-Q&A-4DWN"}
-                                          className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                    <span id={"Home-Q&A-4UP"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                          hidden={true}>&#8593;</span>
-                                </button>
-                            </div>
-                            <p id={"Home-Q&A-4"} hidden={true} className={'text-center text-white text-lg'}>Hello this
-                                all
-                                of
-                                the feature that my new app produces</p>
-                        </div>
-                        <div className={"border-2 border-white"} style={{width: '900px', margin: 'auto'}}>
-                            <div className={"flex justify-between"}>
-                                <h1 className={"text-2xl ml-6 text-white pt-6 pb-6"}>Can I connect to other users on
-                                    VitalityHub?</h1>
-                                <button className={"mr-6 rounded-3xl bg-white h-8"}
-                                        style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button5}
-                                        onMouseEnter={Enter} onMouseLeave={Leave}>
-                                    <span id={"Home-Q&A-5DWN"}
-                                          className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                    <span id={"Home-Q&A-5UP"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                          hidden={true}>&#8593;</span>
-                                </button>
-                            </div>
-                            <p id={"Home-Q&A-5"} hidden={true} className={'text-center text-white text-lg'}>Hello this
-                                all
-                                of
-                                the feature that my new app produces</p>
-                        </div>
-                </MediaQuery>
-                <MediaQuery minWidth={550} maxWidth={999}>
-                    <div className={"border-2 border-white mb-6"}
-                         style={{width: '500px', margin: 'auto', marginBottom: '1.5rem'}}>
-                        <div className={"flex justify-between pt-6 pb-6"}>
-                            <h1 className={"text-xl ml-6 text-white"}>What is included in
-                                VitalityHub?</h1>
-                            <button className={"mr-6 rounded-3xl bg-white"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button1}
-                                    onMouseEnter={Enter}
-                                    onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-1DWN"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                <span id={"Home-Q&A-1UP"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-1"} hidden={true} className={'text-center text-white text-lg'}>Hello this all
-                            of
-                            the feature that my new app produces</p>
-                    </div>
-                    <div className={"border-2 border-white mb-6"}
-                         style={{width: '500px', margin: 'auto', marginBottom: '1.5rem'}}>
-                        <div className={"flex justify-between pt-6 pb-6"}>
-                            <h1 className={"text-xl ml-6 text-white"}>How can VitalityHub help
-                                me?</h1>
-                            <button className={"mr-6 rounded-3xl bg-white"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button2}
-                                    onMouseEnter={Enter}
-                                    onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-2DWN"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                <span id={"Home-Q&A-2UP"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-2"} hidden={true} className={'text-center text-white text-lg'}>Hello this all
-                            of
-                            the feature that my new app produces</p>
-                    </div>
-                    <div className={"border-2 border-white mb-6"}
-                         style={{width: '500px', margin: 'auto', marginBottom: '1.5rem'}}>
-                        <div className={"flex justify-between pt-6 pb-6"}>
-                            <h1 className={"text-xl ml-6 text-white"}>Is VitalityHub compatible with other health and
-                                fitness apps or devices?</h1>
-                            <button className={"mr-6 rounded-3xl bg-white"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button3}
-                                    onMouseEnter={Enter}
-                                    onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-3DWN"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                <span id={"Home-Q&A-3UP"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-3"} hidden={true} className={'text-center text-white text-lg'}>Hello this all
-                            of
-                            the feature that my new app produces</p>
-                    </div>
-                    <div className={"border-2 border-white mb-6"}
-                         style={{width: '500px', margin: 'auto', marginBottom: '1.5rem'}}>
-                        <div className={"flex justify-between pt-6 pb-6"}>
-                            <h1 className={"text-xl ml-6 text-white"}>How do I get started with VitalityHub?</h1>
-                            <button className={"mr-6 rounded-3xl bg-white"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button4}
-                                    onMouseEnter={Enter}
-                                    onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-4DWN"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                <span id={"Home-Q&A-4UP"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-4"} hidden={true} className={'text-center text-white text-lg'}>Hello this all
-                            of
-                            the feature that my new app produces</p>
-                    </div>
-                    <div className={"border-2 border-white"} style={{width: '500px', margin: 'auto'}}>
-                        <div className={"flex justify-between"}>
-                            <h1 className={"text-xl ml-6 text-white pt-6 pb-6"}>Can I connect to other users on
-                                VitalityHub?</h1>
-                            <button className={"mr-6 rounded-3xl bg-white"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button5}
-                                    onMouseEnter={Enter} onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-5DWN"} className={"text-black text-2xl pl-2.5 pr-2.5 relative -top-1"}>&#8595;</span>
-                                <span id={"Home-Q&A-5UP"} className={"text-white text-2xl pl-2.5 pr-2.5 relative -top-1"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-5"} hidden={true} className={'text-center text-white text-lg'}>Hello this all
-                            of the feature that my new app produces</p>
-                    </div>
-                </MediaQuery>
-                <MediaQuery maxWidth={549}>
-                    <div className={"border-2 border-white mb-6"}
-                         style={{width: '340px', margin: 'auto', marginBottom: '1.5rem'}}>
-                        <div className={"flex justify-between pt-6 pb-6"}>
-                            <h1 className={"text-m ml-3 text-white"}>What is included in
-                                VitalityHub?</h1>
-                            <button className={"mr-3 rounded-3xl bg-white"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button1}
-                                    onMouseEnter={Enter}
-                                    onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-1DWN"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}>&#8595;</span>
-                                <span id={"Home-Q&A-1UP"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-1"} hidden={true} className={'text-center text-white text-sm'}>Hello this all
-                            of
-                            the feature that my new app produces</p>
-                    </div>
-                    <div className={"border-2 border-white mb-6"}
-                         style={{width: '340px', margin: 'auto', marginBottom: '1.5rem'}}>
-                        <div className={"flex justify-between pt-6 pb-6"}>
-                            <h1 className={"text-m ml-3 text-white"}>How can VitalityHub help
-                                me?</h1>
-                            <button className={"mr-3 rounded-3xl bg-white"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button2}
-                                    onMouseEnter={Enter}
-                                    onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-2DWN"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}>&#8595;</span>
-                                <span id={"Home-Q&A-2UP"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-2"} hidden={true} className={'text-center text-white text-sm'}>Hello this all
-                            of
-                            the feature that my new app produces</p>
-                    </div>
-                    <div className={"border-2 border-white mb-6"}
-                         style={{width: '340px', margin: 'auto', marginBottom: '1.5rem'}}>
-                        <div className={"flex justify-between pt-6 pb-6"}>
-                            <h1 className={"text-m ml-3 text-white"}>Is VitalityHub compatible with other health and
-                                fitness apps or devices?</h1>
-                            <button className={"mr-3 rounded-3xl bg-white"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button3}
-                                    onMouseEnter={Enter}
-                                    onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-3DWN"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}>&#8595;</span>
-                                <span id={"Home-Q&A-3UP"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-3"} hidden={true} className={'text-center text-white text-sm'}>Hello this all
-                            of
-                            the feature that my new app produces</p>
-                    </div>
-                    <div className={"border-2 border-white mb-6"}
-                         style={{width: '340px', margin: 'auto', marginBottom: '1.5rem'}}>
-                        <div className={"flex justify-between pt-6 pb-6"}>
-                            <h1 className={"text-m ml-3 text-white"}>How do I get started with VitalityHub?</h1>
-                            <button className={"mr-3 rounded-3xl bg-white ml-1"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button4}
-                                    onMouseEnter={Enter}
-                                    onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-4DWN"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}>&#8595;</span>
-                                <span id={"Home-Q&A-4UP"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-4"} hidden={true} className={'text-center text-white text-sm'}>Hello this all
-                            of
-                            the feature that my new app produces</p>
-                    </div>
-                    <div className={"border-2 border-white"} style={{width: '340px', margin: 'auto'}}>
-                        <div className={"flex justify-between"}>
-                            <h1 className={"text-m ml-3 text-white pt-6 pb-6"}>Can I connect to other users on
-                                VitalityHub?</h1>
-                            <button className={"mr-3 rounded-3xl bg-white"}
-                                    style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button5}
-                                    onMouseEnter={Enter} onMouseLeave={Leave}>
-                                <span id={"Home-Q&A-5DWN"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}>&#8595;</span>
-                                <span id={"Home-Q&A-5UP"} className={"text-black text-m relative -top-0.5 pl-2 pr-2"}
-                                      hidden={true}>&#8593;</span>
-                            </button>
-                        </div>
-                        <p id={"Home-Q&A-5"} hidden={true} className={'text-center text-white text-sm'}>Hello this all
-                            of the feature that my new app produces</p>
-                    </div>
-                </MediaQuery>
+        <main className={"bg-black w-screen mt-4 QandA pb-8"}>
+            <h1 className={"text-center text-white pt-6 text-5xl mb-6"}>Q&A</h1>
+            <div className={"mt-6 border-2 border-white mb-6 Container"}
+                 style={{margin: 'auto', marginBottom: '1.5rem'}}>
+                <div className={"flex justify-between pt-6 pb-6"}>
+                    <h1 className={"text-2xl ml-4 text-white Question mr-2"}>What is included in
+                        VitalityHub?</h1>
+                    <button className={"mr-4 rounded-3xl bg-white"}
+                            style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button1}
+                            onMouseEnter={Enter}
+                            onMouseLeave={Leave}>
+                        <span id={"Home-Q&A-1DWN"}
+                              className={"text-black DownArrow"}>&#8595;</span>
+                        <span id={"Home-Q&A-1UP"} className={"text-black UpArrow"}
+                              hidden={true}>&#8593;</span>
+                    </button>
+                </div>
+                <p id={"Home-Q&A-1"} hidden={true}
+                   className={'text-center text-white text-lg Answer mr-2 ml-2'}>Hello this
+                    all of the feature that my new app produces</p>
             </div>
-</main>
-)
-    ;
+            <div className={"border-2 border-white mb-6 Container"}
+                 style={{margin: 'auto', marginBottom: '1.5rem'}}>
+                <div className={"flex justify-between pt-6 pb-6"}>
+                <h1 className={"text-2xl ml-4 text-white Question mr-2"}>How can VitalityHub help
+                    me?</h1>
+                    <button className={"mr-4 rounded-3xl bg-white"}
+                            style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button2}
+                            onMouseEnter={Enter}
+                            onMouseLeave={Leave}>
+                        <span id={"Home-Q&A-2DWN"}
+                              className={"text-black DownArrow"}>&#8595;</span>
+                        <span id={"Home-Q&A-2UP"} className={"text-black UpArrow"}
+                              hidden={true}>&#8593;</span>
+                    </button>
+                </div>
+                <p id={"Home-Q&A-2"} hidden={true} className={'text-center text-white text-lg Answer mr-2 ml-2'}>Hello this
+                    all of the feature that my new app produces</p>
+            </div>
+            <div className={"border-2 border-white mb-6 Container"}
+                 style={{margin: 'auto', marginBottom: '1.5rem'}}>
+                <div className={"flex justify-between pt-6 pb-6"}>
+                    <h1 className={"text-2xl ml-4 text-white Question mr-2"}>Is VitalityHub compatible with other health
+                        and fitness apps or devices?</h1>
+                    <button className={"mr-4 rounded-3xl bg-white"}
+                            style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button3}
+                            onMouseEnter={Enter}
+                            onMouseLeave={Leave}>
+                        <span id={"Home-Q&A-3DWN"}
+                              className={"text-black DownArrow"}>&#8595;</span>
+                        <span id={"Home-Q&A-3UP"} className={"text-black UpArrow"}
+                              hidden={true}>&#8593;</span>
+                    </button>
+                </div>
+                <p id={"Home-Q&A-3"} hidden={true} className={'text-center text-white text-lg Answer mr-2 ml-2'}>Hello this
+                    all of the feature that my new app produces</p>
+            </div>
+            <div className={"border-2 border-white mb-6 Container"}
+                 style={{margin: 'auto', marginBottom: '1.5rem'}}>
+                <div className={"flex justify-between pt-6 pb-6"}>
+                    <h1 className={"text-2xl ml-4 text-white Question mr-2"}>How do I get started with VitalityHub?</h1>
+                    <button className={"mr-4 rounded-3xl bg-white"}
+                            style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button4}
+                            onMouseEnter={Enter}
+                            onMouseLeave={Leave}>
+                        <span id={"Home-Q&A-4DWN"}
+                              className={"text-black DownArrow"}>&#8595;</span>
+                        <span id={"Home-Q&A-4UP"} className={"text-black UpArrow"}
+                              hidden={true}>&#8593;</span>
+                    </button>
+                </div>
+                <p id={"Home-Q&A-4"} hidden={true} className={'text-center text-white text-lg Answer mr-2 ml-2'}>Hello this
+                    all of the feature that my new app produces</p>
+            </div>
+            <div className={"border-2 border-white Container"} style={{margin: 'auto'}}>
+                <div className={"flex justify-between"}>
+                    <h1 className={"text-2xl ml-6 text-white pt-6 pb-6 Question mr-2"}>Can I connect to other users on
+                        VitalityHub?</h1>
+                    <button className={"mr-4 rounded-3xl bg-white"}
+                            style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button5}
+                            onMouseEnter={Enter} onMouseLeave={Leave}>
+                        <span id={"Home-Q&A-5DWN"}
+                              className={"text-black DownArrow"}>&#8595;</span>
+                        <span id={"Home-Q&A-5UP"} className={"text-black UpArrow"}
+                              hidden={true}>&#8593;</span>
+                    </button>
+                </div>
+                <p id={"Home-Q&A-5"} hidden={true} className={'text-center text-white text-lg Answer mr-2 ml-2'}>Hello this
+                    all of the feature that my new app produces</p>
+            </div>
+        </main>
+    );
 }

@@ -32,9 +32,11 @@ K
 app/components/Home/Q&A.tsx,7/a/7abf8e9b96519a60879d82515bfe546e960caeb3
 ?
 app/globals.css,4/d/4dfa49b1332116153eb16507891285845e9ab86e
-Q
-!app/components/Home/DailyPlan.tsx,0/4/04ff665fbfd4dee4685498222e235ecc37336941
 N
 app/components/Home/Footer.tsx,7/0/70a640fc6fb8e7b44a3e9df90f2d8f3b417bf033
 <
 app/page.tsx,6/f/6f76c4f4dad83442e836edc16c9735cb7bb32a73
+L
+app/components/Home/Home.css,8/d/8dcc7205e75fb2d11ab29fdf82027fc5e0fe7678
+T
+$app/components/Home/DefaultTitle.tsx,9/e/9e470a84ad2168529f92c916c33d4d053bed236f
