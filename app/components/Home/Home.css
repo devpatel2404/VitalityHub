@@ -47,6 +47,19 @@
     .QuizInput4 {
         width: 250px;
     }
+
+    .FooterSocials {
+        width: 300px;
+    }
+    .FooterButton {
+        margin: 0.5rem auto 0 auto;
+    }
+    .FooterLinks {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
 }
 
 
@@ -85,7 +98,7 @@
     }
     .BannerPicture {
         width: 300px;
-        margin: 0 auto 0.5rem auto;
+        margin: 0 auto 1rem auto;
     }
     .BannerText {
         width: 300px;
@@ -111,6 +124,22 @@
     }
     .QuizInput4 {
         width: 300px;
+    }
+
+    .FooterLinks {
+        margin-left: 1rem;
+        width: 85vw;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1rem;
+    }
+    .FooterSocials {
+        width: 300px;
+    }
+    .FooterButton {
+        margin: 0.5rem auto 0 auto;
     }
 }
 
@@ -211,4 +240,11 @@
     .BannerParagraph {
         font-size: 1.25rem;
     }
+}
+
+.FooterLinksTitle {
+    font-size: 1.25rem;
+}
+.FooterLinksSub {
+    font-size: 1rem;
 }
