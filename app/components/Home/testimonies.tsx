@@ -36,18 +36,6 @@ export default function Testimonies(){
     return(
         <main className={"w-screen pt-6 pb-6 Testimonies"}>
             <div className={""}>
-                <div className={"TestimoniesPicturesL"}>
-                    <div className={"flex justify-evenly"}>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mr-2 mb-2 TestimonyImages"}></Image>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mr-2 mb-2 TestimonyImages"}></Image>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mb-2 TestimonyImages"}></Image>
-                    </div>
-                    <div className={"flex justify-evenly"}>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mr-2 TestimonyImages"}></Image>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mr-2 TestimonyImages"}></Image>
-                        <Image src={Portrait1} alt={"picture 1"} className={"TestimonyImages"}></Image>
-                    </div>
-                </div>
                 <div className={"flex justify-between text-center ml-20 mr-20 TestimoniesContainer"}>
                     <div className={"flex mr-4"} style={{marginTop: 'auto', marginBottom: 'auto'}}>
                         <button onClick={back}

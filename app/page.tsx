@@ -2,7 +2,7 @@ import Banner from "./components/Home/Banner";
 import Title from './components/Home/DefaultTitle';
 import GettingStarted from "./components/Home/GettingStarted";
 import QandA from "./components/Home/Q&A";
-import Testimonies from "./components/Home/testimonies";
+import Testimonies from "./components/Home/Testimonies";
 import Footer from "./components/Home/Footer";
 
 export default function Home(){
