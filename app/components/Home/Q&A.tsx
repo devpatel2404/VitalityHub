@@ -1,7 +1,7 @@
 "use client"
 import MediaQuery from "react-responsive";
 import mediaQuery from "react-responsive/src/mediaQuery";
-import "./Home.css"
+import "../../Styles/Home.css"
 
 export default function QandA(){
     function button1(){
@@ -66,10 +66,8 @@ export default function QandA(){
                 <div className={"flex justify-between pt-6 pb-6"}>
                     <h1 className={"text-2xl ml-4 text-white Question mr-2"}>What is included in
                         VitalityHub?</h1>
-                    <button className={"mr-4 rounded-3xl bg-white"}
-                            style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button1}
-                            onMouseEnter={Enter}
-                            onMouseLeave={Leave}>
+                    <button className={"mr-4 rounded-3xl bg-white"} onMouseEnter={Enter} onMouseLeave={Leave}
+                            style={{marginTop: 'auto', marginBottom: 'auto'}} onClick={button1}>
                         <span id={"Home-Q&A-1DWN"}
                               className={"text-black DownArrow"}>&#8595;</span>
                         <span id={"Home-Q&A-1UP"} className={"text-black UpArrow"}

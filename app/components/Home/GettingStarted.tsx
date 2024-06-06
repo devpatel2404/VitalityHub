@@ -1,8 +1,8 @@
 "use client"
 import Image from "next/image";
-import Picture1 from '../../../public/Home/FillingOutQuiz.jpeg';
-import Picture2 from '../../../public/Home/GettingStarted1.png';
-import Picture3 from '../../../public/Home/HealthyHabits.png';
+import Picture1 from '../../assets/Home/FillingOutQuiz.jpeg';
+import Picture2 from '../../assets/Home/GettingStarted1.png';
+import Picture3 from '../../assets/Home/HealthyHabits.png';
 import MediaQuery from "react-responsive";
 
 

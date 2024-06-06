@@ -1,7 +1,7 @@
 "use client"
 import MediaQuery from "react-responsive";
 import Link from "next/link";
-import './Home.css'
+import '../../Styles/Home.css'
 
 export default function Footer() {
 

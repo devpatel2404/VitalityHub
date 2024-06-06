@@ -1,0 +1,71 @@
+@media (min-width: 1200px) {
+    .GetStarted {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .GetStartedImagesContainer {
+        display: flex;
+    }
+    .GetStartedContainer1 {
+        width: 300px;
+    }
+    .GetStartedContainer2 {
+        width: 300px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .GetStartedContainer3 {
+        width: 300px;
+    }
+    .GetStartedText {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 549px) {
+    .GetStartedContainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    .GetStartedImage {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.75rem;
+    }
+    .GetStartedText {
+        font-size: 1rem;
+    }
+    .GetStartedContainer1 {
+        margin-bottom: 0.5rem;
+    }
+    .GetStartedContainer2 {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 1199px) {
+    .GetStartedContainer {
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .GetStartedImage {
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.75rem;
+    }
+    .GetStartedText {
+        font-size: 1.125rem;
+    }
+    .GetStartedContainer1 {
+        margin-bottom: 0.75rem;
+    }
+    .GetStartedContainer2 {
+        margin-bottom: 0.75rem;
+    }
+}

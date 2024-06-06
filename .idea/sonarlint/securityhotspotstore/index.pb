@@ -30,15 +30,23 @@ L
 app/components/Quiz/Quiz.tsx,6/5/6550dd1e8f6ec90ac7b3ef629c98faed06611118
 K
 app/components/Home/Q&A.tsx,7/a/7abf8e9b96519a60879d82515bfe546e960caeb3
-?
-app/globals.css,4/d/4dfa49b1332116153eb16507891285845e9ab86e
 N
 app/components/Home/Footer.tsx,7/0/70a640fc6fb8e7b44a3e9df90f2d8f3b417bf033
 <
 app/page.tsx,6/f/6f76c4f4dad83442e836edc16c9735cb7bb32a73
-L
-app/components/Home/Home.css,8/d/8dcc7205e75fb2d11ab29fdf82027fc5e0fe7678
 T
 $app/components/Home/DefaultTitle.tsx,9/e/9e470a84ad2168529f92c916c33d4d053bed236f
 S
 #app/components/Home/Testimonies.tsx,9/4/947e242b9b70cae5c4f0b07008d81e6ddb4ec9bd
+C
+app/SignUp/page.tsx,4/7/47476c0753773f1bd73a0891987dac047be30b4a
+O
+app/components/Home/Reviews.tsx,0/9/09dd9bfbb71ce0da767a888fbf8bb7c63c6a1b31
+E
+app/Styles/SignUp.css,2/5/250e13e6b248ae9f674eb125e357814771c79f2e
+C
+app/SignUp/test.txt,3/e/3e63cbe388ecb8d911cde15e6ec32cb5e4bec45c
+B
+app/Login/page.tsx,0/4/04239787ac0eb7819ed953b8c770e00dc9af0945
+D
+app/Styles/Login.css,d/4/d49e107edaf5936bbf9c300d10befaa97f26df65

@@ -1,7 +1,7 @@
 "use client"
 import {useState} from "react";
 import MediaQuery from "react-responsive";
-import '../Home/Home.css';
+import '../../Styles/Home.css';
 
 export default function QuizSection(){
     const [name, SetName] = useState('');

@@ -1,8 +1,10 @@
 "use client"
 import Image from "next/image";
-import Portrait1 from "../../../public/Home/Portrait1.jpg"
+import Portrait1 from "../../assets/Home/Testimony1.jpg"
+import Portrait2 from "../../assets/Home/Testimony2.jpg"
+import Portrait3 from "../../assets/Home/Testimony3.jpeg";
 import MediaQuery from "react-responsive";
-import "./Home.css"
+import "../../Styles/Home.css"
 
 export default function Testimonies(){
     let curr: number = 0;
@@ -35,8 +37,9 @@ export default function Testimonies(){
 
     return(
         <main className={"w-screen pt-6 pb-6 Testimonies"}>
+            <h1 className={"text-center ml-4 mr-4 TestimonyTitle"}>Discover Members of The Community </h1>
             <div className={""}>
-                <div className={"flex justify-between text-center ml-20 mr-20 TestimoniesContainer"}>
+                <div className={"flex text-center TestimoniesContainer"}>
                     <div className={"flex mr-4"} style={{marginTop: 'auto', marginBottom: 'auto'}}>
                         <button onClick={back}
                                 className={"font-sans text-2xl text-white bg-gray-900 rounded-3xl pl-1 pr-1 text-center relative font-sans"}>&#8592;</button>
@@ -96,17 +99,18 @@ export default function Testimonies(){
                                 className={"text-2xl text-white ml-4 bg-gray-900 rounded-3xl pl-1 pr-1 relative font-sans"}>&#8594;</button>
                     </div>
                 </div>
-                <div className={"TestimoniesPicturesR"}>
-                    <div className={"flex justify-evenly"}>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mr-2 mb-2 TestimonyImages"}></Image>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mr-2 mb-2 TestimonyImages"}></Image>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mb-2 TestimonyImages"}></Image>
-                    </div>
-                    <div className={"flex justify-evenly"}>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mr-2 TestimonyImages"}></Image>
-                        <Image src={Portrait1} alt={"picture 1"} className={"mr-2 TestimonyImages"}></Image>
-                        <Image src={Portrait1} alt={"picture 1"} className={"TestimonyImages"}></Image>
-                    </div>
+            </div>
+            <div className={"TestimoniesPicturesContainer rounded-3xl"}>
+                <h1 className={"text-center TestimonyPictureTitle text-white"}>You are not alone others have and will continue down the same path as you.</h1>
+                <div className={"flex TestimonyImages"}>
+                    <Image src={Portrait1} alt={"picture 1"} className={"mb-2 TestimonyImage"}></Image>
+                    <Image src={Portrait2} alt={"picture 1"} className={"mb-2 TestimonyImage TestimonyImageDivider"}></Image>
+                    <Image src={Portrait3} alt={"picture 1"} className={"mb-2 TestimonyImage TestimonyImageRight"}></Image>
+                </div>
+                <div className={"flex TestimonyImages"}>
+                    <Image src={Portrait1} alt={"picture 1"} className={"TestimonyImage"}></Image>
+                    <Image src={Portrait2} alt={"picture 1"} className={"TestimonyImage TestimonyImageDivider"}></Image>
+                    <Image src={Portrait3} alt={"picture 1"} className={"TestimonyImage TestimonyImageRight"}></Image>
                 </div>
             </div>
         </main>
