@@ -9,7 +9,6 @@ export default function Testimonies(){
     let curr: number = 0;
 
     let back = () => {
-        // @ts-ignore
         document.getElementById(`Testimony${curr}`).hidden = true;
         if (curr == 0){
             curr = 7;
@@ -17,12 +16,10 @@ export default function Testimonies(){
         else {
             curr--;
         }
-        // @ts-ignore
         document.getElementById(`Testimony${curr}`).hidden = false;
     }
 
     let forward = () => {
-        // @ts-ignore
         document.getElementById(`Testimony${curr}`).hidden = true;
         if (curr == 7){
             curr = 0;
@@ -30,7 +27,6 @@ export default function Testimonies(){
         else {
             curr++;
         }
-        // @ts-ignore
         document.getElementById(`Testimony${curr}`).hidden = false;
     }
 
