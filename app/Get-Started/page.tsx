@@ -44,7 +44,7 @@ export default function GetStarted(){
                     </div>
                 </div>
                 <div className={"flex justify-center"}>
-                    <Link href={'Quiz'} className={"rounded-3xl"}>
+                    <Link href={'/SignUp'} className={"rounded-3xl"}>
                         <button className={"text-white bg-blue-800 rounded-3xl text-2xl p-3 mt-6"} onMouseLeave={Leave}
                                 onMouseEnter={Enter}>
                             Continue

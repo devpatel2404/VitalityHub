@@ -3,7 +3,6 @@ import Image from "next/image";
 import Portrait1 from "../../assets/Home/Testimony1.jpg"
 import Portrait2 from "../../assets/Home/Testimony2.jpg"
 import Portrait3 from "../../assets/Home/Testimony3.jpeg";
-import MediaQuery from "react-responsive";
 import "../../Styles/Home.css"
 
 export default function Testimonies(){

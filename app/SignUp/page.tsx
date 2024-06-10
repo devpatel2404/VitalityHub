@@ -15,6 +15,7 @@ export default function SignUp() {
         })
             .then(response => {
                 if (!response.ok) {
+                    // @ts-ignore
                     document.getElementById("EmailAlreadyExists").hidden = false;
                 }
             })
@@ -36,6 +37,7 @@ export default function SignUp() {
             passwordsSimilar = true;
         else
             passwordsSimilar = false;
+        // @ts-ignore
         document.getElementById("NotMatch").hidden = passwordsSimilar;
     }
 

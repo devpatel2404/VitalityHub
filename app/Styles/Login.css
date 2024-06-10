@@ -1,0 +1,41 @@
+.LoginFormContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.LoginInput {
+    padding: 4px 8px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LoginInput:focus {
+    outline: 2px solid gray;
+    box-shadow: 0 0 15px #1E40AF;
+}
+
+.LoginButton {
+    display: flex;
+    margin: 0.5rem auto 0 auto;
+    font-size: 18px;
+    justify-content: center;
+    border: 2px solid white;
+}
+@media (min-width: 450px) {
+    .LoginFormContainer {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 449px) {
+    .LoginFormContainer {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
