@@ -2,13 +2,14 @@
 import Image from "next/image";
 import Portrait1 from "../../assets/Home/Testimony1.jpg"
 import Portrait2 from "../../assets/Home/Testimony2.jpg"
-import Portrait3 from "../../assets/Home/Testimony3.jpeg";
+import Portrait3 from "../../assets/Home/Testimony3.jpeg"
 import "../../Styles/Home.css"
 
 export default function Testimonies(){
     let curr: number = 0;
 
     let back = () => {
+        // @ts-ignore
         document.getElementById(`Testimony${curr}`).hidden = true;
         if (curr == 0){
             curr = 7;
@@ -16,10 +17,12 @@ export default function Testimonies(){
         else {
             curr--;
         }
+        // @ts-ignore
         document.getElementById(`Testimony${curr}`).hidden = false;
     }
 
     let forward = () => {
+        // @ts-ignore
         document.getElementById(`Testimony${curr}`).hidden = true;
         if (curr == 7){
             curr = 0;
@@ -27,6 +30,7 @@ export default function Testimonies(){
         else {
             curr++;
         }
+        // @ts-ignore
         document.getElementById(`Testimony${curr}`).hidden = false;
     }
 

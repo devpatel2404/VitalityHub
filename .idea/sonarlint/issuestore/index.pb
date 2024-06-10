@@ -50,3 +50,5 @@ C
 app/Styles/Home.css,3/b/3bb4661f02da5d281a3b66a5a73b436b432ed9f4
 G
 app/Front-Page/page.tsx,9/a/9a06d9f112285b51d11e2dc26f805e5e26e63ea8
+?
+next.config.mjs,d/f/df8bd0b91ecb778bf2a1b031c7677390c7442bb4
