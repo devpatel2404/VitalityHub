@@ -1,6 +1,5 @@
 'use client';
 import Image from "next/image";
-import MediaQuery from "react-responsive";
 import Link from "next/link";
 import Picture from '../../assets/Home/BannerImage.jpg';
 

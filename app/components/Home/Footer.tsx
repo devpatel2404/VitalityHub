@@ -1,5 +1,4 @@
 "use client"
-import MediaQuery from "react-responsive";
 import Link from "next/link";
 import '../../Styles/Home.css'
 

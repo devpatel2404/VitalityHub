@@ -3,10 +3,7 @@ import Image from "next/image";
 import Picture1 from '../../assets/Home/FillingOutQuiz.jpeg';
 import Picture2 from '../../assets/Home/GettingStarted1.png';
 import Picture3 from '../../assets/Home/HealthyHabits.png';
-import MediaQuery from "react-responsive";
 
-
-//add relevant pictures
 
 export default function GettingStarted(){
     return (
