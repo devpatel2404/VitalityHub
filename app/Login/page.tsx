@@ -40,8 +40,6 @@ export default function Login(){
                         });
                     }
                 } else {
-                    const tokenManager = TokenManager.getInstance();
-                    tokenManager.setToken(JSON.stringify(response.text()));
                     router.push("/Front-Page");
                 }
             })
