@@ -52,3 +52,9 @@ G
 app/Front-Page/page.tsx,9/a/9a06d9f112285b51d11e2dc26f805e5e26e63ea8
 ?
 next.config.mjs,d/f/df8bd0b91ecb778bf2a1b031c7677390c7442bb4
+F
+app/Styles/globals.css,f/3/f301e11ea67ff756443f9930afa8a81733a6407f
+I
+app/AuthenticationKey.tsx,1/2/12322884482baec15f4194d6abedd36d8a73ca1c
+D
+app/TokenManager.tsx,a/b/ab4ad580cc760ea167ae406198974b28ca1ad4c0

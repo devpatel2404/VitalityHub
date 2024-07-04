@@ -7,24 +7,21 @@ import Picture3 from '../../assets/Home/HealthyHabits.png';
 
 export default function GettingStarted(){
     return (
-        <main className={'flex justify-center mt-6 w-screen'}>
-            <div className={"mb-6"}>
-                <h1 className={"text-7xl text-center mb-4 GettingStartedTitle"}>It&apos;s as simple as 1-2-3</h1>
-                <h1 className={"text-2xl font-bold text-center"}>1. Get Started</h1>
-                <p className={"mt-0.5 text-lg mb-2 text-center GettingStarted"} style={{marginLeft: 'auto', marginRight: 'auto'}}>
+        <main className={'GettingStarted'}>
+            <div className={"GettingStartedContainer"}>
+                <h1 className={"GettingStartedTitle"}>It&apos;s as simple as 1-2-3</h1>
+                <h1 className={"GettingStartedSection"}>1. Get Started</h1>
+                <p className={" GettingStartedDescription"}>
                     Get started by adding your profile information, and select a goal.</p>
-                <Image src={Picture1} alt={'random picture'} className={'rounded-3xl GettingStartedImage'} style={{margin: 'auto'}}
-                       ></Image>
-                <h1 className={"text-2xl font-bold mt-2 text-center"}>2. Track Everything</h1>
-                <p className={"mt-0.5 mb-2 text-lg text-center GettingStarted"} style={{marginRight: 'auto', marginLeft: 'auto'}}>
+                <Image src={Picture1} alt={'random picture'} className={'GettingStartedImage'} />
+                <h1 className={"GettingStartedSection"}>2. Track Everything</h1>
+                <p className={"GettingStartedDescription"}>
                     Tracking everything you do can help us figure out what is best for you to reach your goals.</p>
-                <Image src={Picture2} alt={'random picture'} className={'rounded-3xl GettingStartedImage'} style={{margin: 'auto'}}
-                       ></Image>
-                <h1 className={"text-2xl mt-2 font-bold text-center"}>3. Be Consistent</h1>
-                <p className={"mt-0.5 text-lg mb-2 text-center GettingStarted"} style={{marginLeft: 'auto', marginRight: 'auto'}}>
+                <Image src={Picture2} alt={'random picture'} className={'GettingStartedImage'}/>
+                <h1 className={"GettingStartedSection"}>3. Be Consistent</h1>
+                <p className={"GettingStartedDescription"}>
                     Building Healthy Habits, Discipline, and Accountability can help build consistency to reach you goals.</p>
-                <Image src={Picture3} alt={'random picture'} className={'rounded-3xl GettingStartedImage'}
-                       style={{margin: 'auto'}}></Image>
+                <Image src={Picture3} alt={'random picture'} className={'GettingStartedImage'} />
             </div>
         </main>
     );

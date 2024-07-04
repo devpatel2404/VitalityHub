@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Title(){
     useEffect(() => {
         const handleScroll = () => {
-            const threshold = 30;
+            const threshold = 20;
             const scrollY = window.scrollY;
 
             if (scrollY > threshold) {
@@ -32,37 +32,12 @@ export default function Title(){
         };
     }, []);
 
-    function Enter(){
-        // @ts-ignore
-        document.getElementById('GetStartedButton').style.opacity = "0.8";
-        // @ts-ignore
-        if (document.getElementById('GetStartedButton').style.backgroundColor == 'white'){
-            // @ts-ignore
-            document.getElementById('GetStartedButton').style.opacity = "1,25";
-            // @ts-ignore
-            document.getElementById('GetStartedButton').style.backgroundColor = 'grey';
-        }
-    }
-
-    function Leave(){
-        // @ts-ignore
-        document.getElementById('GetStartedButton').style.opacity = "1.25";
-        // @ts-ignore
-        if (document.getElementById('GetStartedButton').style.backgroundColor == 'grey'){
-            // @ts-ignore
-            document.getElementById('GetStartedButton').style.opacity = "0.8";
-            // @ts-ignore
-            document.getElementById('GetStartedButton').style.backgroundColor = 'white';
-        }
-    }
-
     return(
-        <main id={'TitleBanner'} className={"bg-blue-800 inline-flex w-screen justify-between fixed z-50 h-16"}>
-            <h1 id={"HomeTitle"} className={"text-2xl font-bold text-white ml-8"} style={{marginTop: 'auto', marginBottom: 'auto'}}>VitalityHub</h1>
+        <main id={'TitleBanner'} className={"Title"}>
+            <h1 id={"HomeTitle"} className={"AppName"}>VitalityHub</h1>
             <Link href={"/Get-Started"}>
-                <button id={"GetStartedButton"}
-                        className={"relative text-xl justify-end text-blue-800 font-bold border-white border-2 rounded-2xl pl-2 pr-2 bg-white h-10 mr-8 mt-3"}
-                        onMouseLeave={Leave} onMouseEnter={Enter}>Get Started
+                <button id={"GetStartedButton"} className={"GetStartedButton"}>
+                    Get Started
                 </button>
             </Link>
         </main>

@@ -24,7 +24,7 @@ export default function GetStarted(){
         <main className={"pb-8 GetStarted"}>
             <div className={"GetStartedContainer"}>
                 <h1 className={"text-3xl text-center text-black"}>Get Started With</h1>
-                <Link href={"/"}><h1 className={"mt-1 text-4xl text-center text-blue-800"}>VitalityHub</h1></Link>
+                <Link href={"/"}><h1 className={"mt-1 text-6xl text-center text-blue-800 AppName"}>VitalityHub</h1></Link>
                 <div className={"mt-6 GetStartedImagesContainer"}>
                     <div className={"text-blue-800 GetStartedContainer1"}>
                         <Image src={Picture1} alt={"a placeholder picture"} className={"rounded-3xl GetStartedImage"}/>

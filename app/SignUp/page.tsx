@@ -2,7 +2,6 @@
 import Link from "next/link";
 import "../Styles/SignUp.css"
 import {useState} from "react";
-import Image from "next/image";
 
 export default function SignUp() {
     // @ts-ignore
@@ -51,7 +50,7 @@ export default function SignUp() {
         <main className={"bg-blue-800 h-screen"}>
             <div className={"HaveAccount"}>
                     <div className={"inline-block"}>
-                        <h1 className={"HaveAccountText"}>Already have an account? Sign in</h1>
+                        <h1 className={"HaveAccountText"}>Already have an account?</h1>
                         <Link href={"/"}>
                             <h1 className={"HaveAccountText italic underline"}>Forgot password?</h1>
                         </Link>
@@ -64,7 +63,7 @@ export default function SignUp() {
             </div>
             <div className={"SignUp"}>
                 <form className={"SignUpContainer"} onSubmit={handleSubmit} method={"post"}>
-                    <h1 className={"text-white text-4xl text-center mb-4 pt-4 flex justify-center"}><Link href={"/"}>
+                    <h1 className={"text-white text-6xl text-center mb-4 pt-4 flex justify-center"}><Link href={"/"} className={"AppName"}>
                         VitalityHub</Link></h1>
                     <div className={"SignUpInputContainer"}>
                         <h1 className={"SignUpInputTitle text-red-600"} id={"UsernameAlreadyExists"} hidden={true}>Username

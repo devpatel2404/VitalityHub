@@ -5,6 +5,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid lightgray;
+    width: 320px;
 }
 
 .LoginInput {
@@ -12,6 +14,7 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    width: 250px;
 }
 
 .LoginInput:focus {
@@ -20,22 +23,26 @@
 }
 
 .LoginButton {
+    width: 250px;
     display: flex;
-    margin: 0.5rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     font-size: 18px;
     justify-content: center;
-    border: 2px solid white;
-}
-@media (min-width: 450px) {
-    .LoginFormContainer {
-        width: 400px;
-        margin: 0 auto;
-    }
 }
 
-@media (max-width: 449px) {
+.LoginError {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 499px) {
     .LoginFormContainer {
-        width: 300px;
-        margin: 0 auto;
+        border: none;
     }
 }

@@ -32,33 +32,52 @@ export default function Login(){
                         response.text().then(errorMessage => {
                             if (errorMessage.includes('does not exist')) {
                                 //@ts-ignore
-                                document.getElementById("VitalityHub").hidden = true;
+                                document.getElementById("UsernameError").hidden = false;
                             } else {
-
+                                // @ts-ignore
+                                document.getElementById("PasswordError").hidden = false;
                             }
                         });
                     }
                 } else {
+                    const tokenManager = TokenManager.getInstance();
+                    tokenManager.setToken(JSON.stringify(response.text()));
                     router.push("/Front-Page");
                 }
             })
     }
 
+    // @ts-ignore
+    const manageErrors = (e) => {
+        if (e.target.styles.hidden == false) {
+            e.target.styles.hidden = true;
+        }
+    }
+
     return (
         <main className={"h-screen"}>
-            <h1>VitalityHub</h1>
+            <h1 id={"PasswordError"}
+                className={"text-center LoginError bg-red-300 text-red-700 p-2 border-2 border-red-700 mt-4 mb-4"}
+                hidden={true} onSubmit={manageErrors}>Incorrect Login Credentials</h1>
+            <h1 id={"UsernameError"}
+                className={"LoginError bg-red-300 text-red-700 p-2 border-2 border-red-700 mt-4 mb-4"}
+                hidden={true}>User Does Not Exist</h1>
             <div className={"LoginFormContainer"}>
                 <div className={""}>
-                    <h1 id={"VitalityHub"} className={"text-center text-lg"}>Log Into VitalityHub</h1>
+                    <h1 id={"VitalityHub"} className={"text-center text-6xl text-blue-800 mt-12 mb-12"}>
+                        <Link href={"/"} className={"AppName"}>VitalityHub</Link></h1>
                     <form className={"LoginForm"} onSubmit={handleSubmit}>
-                        <input name={"username"} className={"text-black border-2 border-black mt-2 LoginInput"} placeholder={"Username"} onChange={handleInput}/>
-                        <input name={"password"} type={"p"} className={"text-black border-2 border-black mt-2 LoginInput"} placeholder={"Password"} onChange={handleInput}/>
-                        <button className={"text-black LoginButton"}>Login</button>
-                        <Link href={"/"} className={"text-center"}>Forgot Password</Link>
+                        <input name={"username"} className={"text-black border-2 border-black mt-2 LoginInput rounded-xl"}
+                               placeholder={"Username"} onChange={handleInput}/>
+                        <input name={"password"} type={"p"}
+                               className={"text-black border-2 border-black mt-2 LoginInput rounded-xl"} placeholder={"Password"}
+                               onChange={handleInput}/>
+                        <button className={"text-black LoginButton border-2 border-black rounded-xl"}>Login</button>
+                        <Link href={"/"} className={"flex text-blue-800 mt-2"}>Forgot password?</Link>
                         <div>
-
                         </div>
-                        <button><Link href={"/SignUp"}>Create Account</Link></button>
+                        <h1 className={"mb-4"}>Don&apos;t have an account?
+                            <Link href={"/SignUp"} className={"text-blue-800"}> Sign Up</Link></h1>
                     </form>
                 </div>
             </div>
