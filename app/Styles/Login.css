@@ -40,6 +40,11 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.AppName {
+    color: black;
+    font-size: 52px;
+    margin: 0;
+}
 
 @media (max-width: 499px) {
     .LoginFormContainer {
