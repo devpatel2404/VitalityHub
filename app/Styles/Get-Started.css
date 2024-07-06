@@ -1,71 +1,106 @@
 @media (min-width: 1200px) {
-    .GetStarted {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-    }
-    .GetStartedImagesContainer {
-        display: flex;
-    }
-    .GetStartedContainer1 {
-        width: 300px;
-    }
-    .GetStartedContainer2 {
-        width: 300px;
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-    .GetStartedContainer3 {
-        width: 300px;
-    }
-    .GetStartedText {
-        font-size: 1.125rem;
-    }
+  .GetStarted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .GetStartedImagesContainer {
+    display: flex;
+  }
+  .GetStartedContainer1 {
+    width: 300px;
+  }
+  .GetStartedContainer2 {
+    width: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .GetStartedContainer3 {
+    width: 300px;
+  }
+  .GetStartedText {
+    margin-top: 12px;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 549px) {
-    .GetStartedContainer {
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-    }
-    .GetStartedImage {
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0.75rem;
-    }
-    .GetStartedText {
-        font-size: 1rem;
-    }
-    .GetStartedContainer1 {
-        margin-bottom: 0.5rem;
-    }
-    .GetStartedContainer2 {
-        margin-bottom: 0.5rem;
-    }
+  .GetStarted {
+    padding: 24px 0;
+  }
+  .GetStartedContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  .GetStartedImage {
+    width: 300px;
+    margin: 18px auto 16px auto;
+  }
+  .GetStartedText {
+    font-size: 1rem;
+  }
+  .GetStartedContainer1 {
+    margin-bottom: 0.5rem;
+  }
+  .GetStartedContainer2 {
+    margin-bottom: 0.5rem;
+  }
 }
 
 @media (min-width: 550px) and (max-width: 1199px) {
-    .GetStartedContainer {
-        width: 340px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .GetStartedImage {
-        width: 340px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0.75rem;
-    }
-    .GetStartedText {
-        font-size: 1.125rem;
-    }
-    .GetStartedContainer1 {
-        margin-bottom: 0.75rem;
-    }
-    .GetStartedContainer2 {
-        margin-bottom: 0.75rem;
-    }
+  .GetStarted {
+    padding: 24px 0px;
+  }
+  .GetStartedContainer {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .GetStartedImage {
+    width: 340px;
+    margin: 12px 0;  
+  }
+  .GetStartedText {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .GetStartedContainer1 {
+    margin-bottom: 0.75rem;
+  }
+  .GetStartedContainer2 {
+    margin-bottom: 0.75rem;
+  }
+  .GetStartedImagesContainer {
+    margin-top: 18px;
+  }
+}
+
+.GetStartedImage {
+  border-radius: 25px;
+}
+
+.GetStarted {
+  text-align: center;
+}
+
+.GettingStartedTitleB {
+  font-size: 60px;
+  position: relative;
+  top: -10px;
+  font-family: "Brush Script MT" ;
+  color: rgba(32, 64, 175);
+}
+
+.GettingStartedTitleA {
+  font-size: 32px;
+}
+
+.GetStartedButtonA {
+  background: rgba(32, 64, 175);
+  color: white;
+  padding: 4px 16px;
+  border-radius: 25px;
+  margin-top: 12px;
 }

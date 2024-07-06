@@ -1,183 +1,196 @@
 @media (max-width: 599px) {
-    .SignUpInputContainer {
-        width: 300px;
-        color: white;
-    }
-    .SignUpInputTitle {
-        margin: 0 0 0.5rem 25px;
-    }
-    .SignUpInput {
-        width: 250px;
-        display: flex;
-        margin: 0 auto 1rem auto;
-    }
-    .SignUpTitle {
-        font-size: 1.5rem;
-        margin-bottom: 8px;
-    }
-    .SignUpButton {
-        display: flex;
-        margin: 0 auto 0 auto;
-        background-color: white;
-        color: black;
-        padding: 6px 12px;
-    }
-    .HaveAccount {
-        position: relative;
-        top: 20px;
-        display: flex;
-        color: white;
-        justify-content: end;
-        align-items: center;
-        height: 60px;
-    }
-    .HaveAccountText {
-       margin-right: 12px;
-        font-size: 0.75rem;
-    }
-    .HaveAccountButton {
-        margin-right: 12px;
-        padding: 6px 12px;
-    }
-    .AgreeToTerms {
-        margin-left: 25px;
-        font-size: 0.75rem;
-        margin-bottom: 12px;
-        align-items: center;
-    }
-    .AgreeToTermsDescription {
-        font-size: 0.75rem;
-        margin-left: 0.5rem;
-        margin-right: 25px;
-    }
+  .SignUpInputContainer {
+    width: 300px;
+    border: 1px solid #d3d3d3;
+  }
+  .SignUpInputTitle {
+    margin: 0 0 0.5rem 25px;
+  }
+  .SignUpInput {
+    width: 250px;
+    display: flex;
+    margin: 0 auto 1rem auto;
+  }
+  .SignUpTitle {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  .SignUpButton {
+    display: flex;
+    margin: 0 auto 0 auto;
+    padding: 6px 12px;
+  }
+  .HaveAccount {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+  }
+  .HaveAccountText {
+    margin-right: 12px;
+    font-size: 0.75rem;
+  }
+  .HaveAccountButton {
+    margin-right: 12px;
+    padding: 6px 12px;
+  }
+  .AgreeToTerms {
+    margin-left: 25px;
+    font-size: 0.75rem;
+    margin-bottom: 12px;
+    align-items: center;
+  }
+  .AgreeToTermsDescription {
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+    margin-right: 25px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 1199px) {
-    .SignUpInputContainer {
-        width: 400px;
-        color: white;
-    }
-    .SignUpInputTitle {
-        margin: 0 0 0.5rem 50px;
-    }
-    .SignUpInput {
-        width: 300px;
-        display: flex;
-        margin: 0 auto 1rem auto;
-    }
-    .SignUpTitle {
-        font-size: 1.5rem;
-        margin-bottom: 0.75rem;
-    }
-    .SignUpButton {
-        display: flex;
-        margin: 0 auto 0 auto;
-        background-color: white;
-        color: black;
-        padding: 6px 12px;
-    }
-    .HaveAccount {
-        position: relative;
-        top: 20px;
-        display: flex;
-        color: white;
-        justify-content: end;
-        align-items: center;
-        height: 60px;
-    }
-    .HaveAccountText {
-        font-size: 0.875rem;
-        margin-right: 12px;
-    }
-    .HaveAccountButton {
-        margin-right: 12px;
-        padding: 6px 12px;
-    }
-    .AgreeToTerms {
-        margin-left: 50px;
-        font-size: 0.75rem;
-        margin-bottom: 12px;
-        align-items: center;
-    }
-    .AgreeToTermsDescription {
-        font-size: 0.75rem;
-        margin-left: 0.5rem;
-        margin-right: 50px;
-    }
+  .SignUpInputContainer {
+    width: 400px;
+  }
+  .SignUpInputTitle {
+    margin: 0 0 0.5rem 50px;
+  }
+  .SignUpInput {
+    width: 300px;
+    display: flex;
+    margin: 0 auto 1rem auto;
+  }
+  .SignUpTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .SignUpButton {
+    display: flex;
+    margin: 0 auto 0 auto;
+    padding: 6px 12px;
+  }
+  .HaveAccount {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+  }
+  .HaveAccountText {
+    font-size: 0.875rem;
+    margin-right: 12px;
+  }
+  .HaveAccountButton {
+    margin-right: 12px;
+    padding: 6px 12px;
+  }
+  .AgreeToTerms {
+    margin-left: 50px;
+    font-size: 0.75rem;
+    margin-bottom: 12px;
+    align-items: center;
+  }
+  .AgreeToTermsDescription {
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+    margin-right: 50px;
+  }
 }
 
 @media (min-width: 1200px) {
-    .SignUpInputContainer {
-        width: 450px;
-        color: white;
-    }
-    .SignUpInputTitle {
-        margin: 0 0 0.5rem 62.5px;
-    }
-    .SignUpInput {
-        width: 325px;
-        display: flex;
-        margin: 0 auto 1rem auto;
-    }
-    .SignUpTitle {
-        font-size: 2rem;
-        margin-bottom: 0.75rem;
-    }
-    .SignUpButton {
-        display: flex;
-        margin: 0 auto 0 auto;
-        background-color: white;
-        color: black;
-        padding: 6px 12px;
-    }
-    .HaveAccount {
-        position: relative;
-        top: 20px;
-        display: flex;
-        color: white;
-        justify-content: end;
-        align-items: center;
-        height: 60px;
-    }
-    .HaveAccountText {
-        font-size: 0.875rem;
-        margin-right: 12px;
-    }
-    .HaveAccountButton {
-        margin-right: 12px;
-        padding: 6px 12px;
-    }
-    .AgreeToTerms {
-        margin-left: 62.5px;
-        font-size: 0.75rem;
-        margin-bottom: 12px;
-        align-items: center;
-    }
-    .AgreeToTermsDescription {
-        font-size: 0.75rem;
-        margin-left: 0.5rem;
-        margin-right: 50px;
-    }
+  .SignUpInputContainer {
+    width: 450px;
+  }
+  .SignUpInputTitle {
+    margin: 0 0 0.5rem 62.5px;
+  }
+  .SignUpInput {
+    width: 325px;
+    display: flex;
+    margin: 0 auto 1rem auto;
+  }
+  .SignUpTitle {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .SignUpButton {
+    display: flex;
+    margin: 0 auto 0 auto;
+    padding: 6px 12px;
+  }
+  .HaveAccount {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+  }
+  .HaveAccountText {
+    font-size: 0.875rem;
+    margin-right: 12px;
+  }
+  .HaveAccountButton {
+    margin-right: 12px;
+    padding: 6px 12px;
+  }
+  .AgreeToTerms {
+    margin-left: 62.5px;
+    font-size: 0.75rem;
+    margin-bottom: 12px;
+    align-items: center;
+  }
+  .AgreeToTermsDescription {
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+    margin-right: 50px;
+  }
 }
 
 .SignUpContainer {
-    margin-right: auto;
-    margin-left: auto;
-    height: 425px;
-    padding-top: calc(50vh - 212px - 150px);
+  margin-right: auto;
+  margin-left: auto;
+  height: 560px;
+  margin-top: 300px;
 }
 
 .SignUp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SignUpContainer {
+  border: 1px solid #d3d3d3;
+}
+
+.SignUpTitleA {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+}
+
+.SignUpTitleA Link {
+  background: black;
 }
 
 .SignUpInput:focus, .SignUpButton:focus, .HaveAccountButton:focus {
-    outline: 2px solid gray;
-    box-shadow: 0 0 15px darkcyan;
+  outline: 2px solid gray;
+  box-shadow: 0 0 15px darkcyan;
 }
 
 .SignUpInput {
-    color: black;
+  color: black;
+  border: 1px solid #d3d3d3;
 }
+
+.SignUpButton {
+  border: 1px solid #d3d3d3;
+}
+
+.HaveAccountButton {
+  border: 1px solid black;
+}
+

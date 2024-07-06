@@ -10,11 +10,10 @@
 }
 
 .LoginInput {
-    padding: 4px 8px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
+  padding: 4px 8px;
+  display: flex;
+  margin-top: 12px;  
+  width: 250px;
 }
 
 .LoginInput:focus {
@@ -25,7 +24,7 @@
 .LoginButton {
     width: 250px;
     display: flex;
-    margin: 1rem auto 0 auto;
+    margin: 20px auto 0 auto;
     font-size: 18px;
     justify-content: center;
 }
@@ -40,10 +39,15 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.AppName {
+.LoginTitle {
     color: black;
-    font-size: 52px;
-    margin: 0;
+    font-family: "Brush Script MT";
+    font-size: 60px;
+    margin: 24px 0;
+}
+
+.LoginForm button {
+  color: rgba(32, 64, 175);
 }
 
 @media (max-width: 499px) {
